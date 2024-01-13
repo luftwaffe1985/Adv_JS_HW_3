@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/assets/css/style.css" />
+    <script type="module" src="./home.js" defer></script>
+    <title>Adv_JS_HW_3</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="icon-title-box">
+        <h1 class="icon-title-box__title">Put your feedbacks here</h1>
+      </div>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li><a class="navigation__link" href="#">Main page</a></li>
+          <li>
+            <a class="navigation__link" href="feedbacks.html">Feedbacks</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container center">
+      <form class="form">
+        <p>
+          <label for="productname" class="label-text"
+            >Enter product's name:</label
+          >
+          <input type="text" name="productname" id="productname" />
+        </p>
+        <p>
+          <label for="feedback" class="label-text"> Leave your feedback:</label>
+          <textarea
+            rows="10"
+            name="feedback"
+            id="feedback"
+            class="textarea"
+          ></textarea>
+        </p>
+        <p class="submit">
+          <input type="submit" value="Add a feedback" class="addButton" />
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
